@@ -17,6 +17,8 @@
  */
 package com.rossjourdain.util.xero;
 
+import java.util.List;
+
 //import com.sun.xml.internal.ws.streaming.DOMStreamReader;
 import org.apache.servicemix.jbi.jaxp.W3CDOMStreamReader;
 import net.oauth.OAuthProblemException;
@@ -26,7 +28,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
-import java.util.List;
+
 
 /**
  *
@@ -85,6 +87,7 @@ public class XeroClientException extends Exception {
       JAXBElement jaxbElement = null;
 
       if ("Invoice".equals(elementType)) {
+
         jaxbElement = unmarshaller.unmarshal(new W3CDOMStreamReader(e), Invoice.class);
         modelObject = (Invoice) jaxbElement.getValue();
       } else if ("Payment".equals(elementType)) {
@@ -92,6 +95,7 @@ public class XeroClientException extends Exception {
         modelObject = (Payment) jaxbElement.getValue();
       } else if ("Contact".equals(elementType)) {
         jaxbElement = unmarshaller.unmarshal(new W3CDOMStreamReader(e), Contact.class);
+
         modelObject = (Contact) jaxbElement.getValue();
       } else {
         throw new RuntimeException("Unrecognised type: " + elementType);
