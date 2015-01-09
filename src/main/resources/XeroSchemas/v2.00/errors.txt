@@ -1,0 +1,68 @@
+parsing a schema...
+[ERROR] Property "Status" is already defined. Use &lt;jaxb:property> to resolve this conflict.
+  line 26 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Payment.xsd
+
+[ERROR] The following location is relevant to the above error
+  line 30 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Payment.xsd
+
+[ERROR] Property "Status" is already defined. Use &lt;jaxb:property> to resolve this conflict.
+  line 16 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Tracking.xsd
+
+[ERROR] The following location is relevant to the above error
+  line 23 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Tracking.xsd
+
+[ERROR] Property "Status" is already defined. Use &lt;jaxb:property> to resolve this conflict.
+  line 30 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/TaxRate.xsd
+
+[ERROR] The following location is relevant to the above error
+  line 33 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/TaxRate.xsd
+
+[ERROR] Property "Status" is already defined. Use &lt;jaxb:property> to resolve this conflict.
+  line 33 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Receipt.xsd
+
+[ERROR] The following location is relevant to the above error
+  line 54 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Receipt.xsd
+
+[ERROR] Property "Status" is already defined. Use &lt;jaxb:property> to resolve this conflict.
+  line 29 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Employee.xsd
+
+[ERROR] The following location is relevant to the above error
+  line 37 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Employee.xsd
+
+[ERROR] Property "Status" is already defined. Use &lt;jaxb:property> to resolve this conflict.
+  line 28 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/CreditNote.xsd
+
+[ERROR] The following location is relevant to the above error
+  line 46 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/CreditNote.xsd
+
+[ERROR] Property "Status" is already defined. Use &lt;jaxb:property> to resolve this conflict.
+  line 30 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/ExpenseClaim.xsd
+
+[ERROR] The following location is relevant to the above error
+  line 38 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/ExpenseClaim.xsd
+
+[ERROR] Property "Status" is already defined. Use &lt;jaxb:property> to resolve this conflict.
+  line 31 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Invoice.xsd
+
+[ERROR] The following location is relevant to the above error
+  line 64 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Invoice.xsd
+
+[ERROR] Property "Status" is already defined. Use &lt;jaxb:property> to resolve this conflict.
+  line 25 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/ManualJournal.xsd
+
+[ERROR] The following location is relevant to the above error
+  line 35 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/ManualJournal.xsd
+
+[ERROR] Property "Status" is already defined. Use &lt;jaxb:property> to resolve this conflict.
+  line 28 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/BankTransaction.xsd
+
+[ERROR] The following location is relevant to the above error
+  line 44 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/BankTransaction.xsd
+
+[ERROR] Property "Status" is already defined. Use &lt;jaxb:property> to resolve this conflict.
+  line 25 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Account.xsd
+
+[ERROR] The following location is relevant to the above error
+  line 38 of file:/C:/Projects/MSSA/cws/materials/XeroAPI-Schemas-master/XeroAPI-Schemas-master/v2.00/Account.xsd
+
+Failed to parse a schema.

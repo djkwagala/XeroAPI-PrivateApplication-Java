@@ -59,9 +59,7 @@ public class App {
                 }
             }
 
-        } catch (XeroClientException ex) {
-            ex.printDetails();
-        } catch (XeroClientUnexpectedException ex) {
+        } catch (Exception ex) {
             ex.printStackTrace();
         }
 
@@ -102,9 +100,7 @@ public class App {
             invoices.add(invoice);
 
             xeroClient.postInvoices(arrayOfInvoice);
-        } catch (XeroClientException ex) {
-            ex.printDetails();
-        } catch (XeroClientUnexpectedException ex) {
+        } catch (Exception ex) {
             ex.printStackTrace();
         }
 
@@ -121,9 +117,7 @@ public class App {
             contacts.add(contact1);
             xeroClient.postContacts(arrayOfContact);
 
-        } catch (XeroClientException ex) {
-            ex.printDetails();
-        } catch (XeroClientUnexpectedException ex) {
+        } catch (Exception ex) {
             ex.printStackTrace();
         }
 
@@ -148,9 +142,7 @@ public class App {
 
             xeroClient.postPayments(arrayOfPayment);
 
-        } catch (XeroClientException ex) {
-            ex.printDetails();
-        } catch (XeroClientUnexpectedException ex) {
+        }  catch (Exception ex) {
             ex.printStackTrace();
         }
     }
